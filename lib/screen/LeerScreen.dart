@@ -24,13 +24,11 @@ class LeerScreens extends StatelessWidget {
           return ListView.builder(
             itemCount: data.length,
             itemBuilder: (context, i) {
-              // Acceso a los mapas internos según tu nueva estructura
               final transferencia = data[i];
               final detalles = transferencia['detalles'];
               final destino = transferencia['destino'];
 
               return ListTile(
-                // La imagen está dentro de 'detalles' -> 'imagen_comprobante'
                 leading: Image.network(
                   detalles['imagen_comprobante'], 
                   width: 50,
