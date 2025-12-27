@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656250656756",
+    "project_id": "fmoviles3",
+    "storage_bucket": "fmoviles3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656250656756:android:40ce7ca776fbeeae0ecba1",
+        "android_client_info": {
+          "package_name": "com.example.appnavegacion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiEDIl4bXtH1IaIQHbtn7KqYnPvsNkOWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
